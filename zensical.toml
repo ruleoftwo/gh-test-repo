@@ -1,0 +1,15 @@
+[project]
+site_name = "Test Docs"
+site_url = "https://ruleoftwo.github.io/gh-test-repo"
+repo_url = "https://github.com/ruleoftwo/gh-test-repo"
+
+nav = [
+  "index.md",
+]
+
+[project.theme]
+variant = "classic"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "black"
