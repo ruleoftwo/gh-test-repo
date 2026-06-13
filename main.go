@@ -11,7 +11,7 @@ func main() {
 		fmt.Println(resolveVersion())
 		return
 	}
-	fmt.Println("hello from gh-test-repo!")
+	fmt.Printf("gh-test-repo %s\n", resolveVersion())
 }
 
 func resolveVersion() string {
